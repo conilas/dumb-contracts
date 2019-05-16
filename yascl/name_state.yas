@@ -1,3 +1,6 @@
+//we should have a --enforced option on the compiler, which would make sure more things are right before running
+//maybe running all the checks @ compile time
+//we could layer that in order to choose how much enforcement would happen
 contract X 
 
 immutable Int total
