@@ -62,3 +62,7 @@ updates:
 does:
   self.name = value
 
+//readings:
+//http://se.inf.ethz.ch/~meyer/publications/computer/contract.pdf 
+//http://www.cs.tau.ac.il/~nachumd/term/FloydMeaning.pdf
+//http://www.cs.toronto.edu/~chechik/courses05/csc410/readings/hoare_axiomatic.pdf
