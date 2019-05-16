@@ -1,10 +1,12 @@
 contract X 
 
-immutable Int total
+immutable Int total //immutable values are setted only by the create function
 immutable Address owner
 
-field String message
+field String message //the fields are representing the state; they are always mutable.
 field String name
+
+const String assigned := "hey" //asssigning a value to the constant, meaning it is immutable but cannot be updated anywhere
 
 create(total : Int, owner : Address)
 updates:
